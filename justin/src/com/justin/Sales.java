@@ -25,6 +25,7 @@ public class Sales {
 					System.out.println("get:"+money);
 				}
 				line=in.readLine();
+				line=in.readLine();
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
