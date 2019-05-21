@@ -7,7 +7,7 @@ public class My {
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-			FileInputStream fis =new FileInputStream("result.txt");
+			FileInputStream fis =new FileInputStream("data.txt");
 			int n =fis.read();
 			try {
 			while(n!=-1) {
