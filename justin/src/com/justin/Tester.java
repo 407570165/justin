@@ -23,9 +23,9 @@ public class Tester {
 				if(tokens.length==2) {
 					System.out.println(tokens[0]+"/"+tokens[1]);
 				int n=Integer.parseInt(tokens[1]);
-				if(n/10>1) {
-					System.out.println(10000+((n/10)-1)*30000);
-				}//為甚麼沒執行這一段
+				if(n>10) {
+					System.out.println(10000+(n-10)*3000);
+				}
 				}
 				line=in.readLine();
 			}
