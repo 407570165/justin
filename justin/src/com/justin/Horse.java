@@ -5,8 +5,19 @@ public class Horse extends Thread{
 		setName(name);
 	}
 	public void run(){
-		for(int i =1;i<=10000;i++) {
-			System.out.println(getName()+i);
+		for(int i=1;i<=50;i++) {
+			StringBuilder spaces =new StringBuilder();
+		for(int j=0;j<i;j++) {
+			spaces.append(" ");
+		}
+		System.out.println(getName()+spaces.toString()+i);
+		
+		try {
+			sleep(100);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
+}
 }

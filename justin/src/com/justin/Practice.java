@@ -6,7 +6,9 @@ import java.io.PrintWriter;
 public class Practice {
 
 	public static void main(String[] args) {
-		PrintWriter out =null;
+		
+		
+		/*PrintWriter out =null;
 		try {
 		FileWriter fw =new FileWriter("result.txt");
 		out =new PrintWriter(fw);
@@ -17,7 +19,7 @@ public class Practice {
 			if(out!=null) {
 				out.close();
 			}
-		}
+		}*/
 	}
 
 }
