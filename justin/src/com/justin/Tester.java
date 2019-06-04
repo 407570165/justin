@@ -34,18 +34,6 @@ public class Tester {
 		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		/*try {
 			FileInputStream fis =new FileInputStream("data.txt");
 			Reader in=new InputStreamReader(fis);
